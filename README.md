@@ -98,7 +98,9 @@ Bound keys have no recipe. Crouch-use a blank key on a lock you own.
 
 ### Master Key (shapeless)
 
-Emerald + netherite ingot + gold ingot.
+| Result | Ingredients |
+|---|---|
+| Master Key | Emerald + netherite ingot + gold ingot |
 
 ## How to Use
 
@@ -117,7 +119,7 @@ Crouch-use a lock item on an entrance you own to open settings (access, sharing,
 
 Crouch-use a blank key on a lock you own to bind it. Standing-click with that bound key opens that lock and spends one use. A wrong key fails and still wears. Only the owner can copy keys.
 
-Craft a Master Key (emerald + netherite ingot + gold ingot). Crouch-use it on a lock you own. That one key opens all of your locks.
+Crouch-use a Master Key on a lock you own. That one key opens all of your locks.
 
 ### Lockpicking and smash
 
