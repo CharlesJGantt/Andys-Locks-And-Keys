@@ -85,18 +85,16 @@ All recipes are **always unlocked** in the recipe book. You do not have to find 
 
 Bound keys have no recipe. Crouch-use a blank key on a lock you own.
 
-### Lockpicks (shaped, vertical)
+### Lockpicks (shaped, vertical: two sticks over the material)
 
-Two sticks over the matching material (oak planks for Wood).
-
-| Result | Bottom ingredient |
+| Result | Ingredients |
 |---|---|
-| Wooden Lockpick | Oak planks |
-| Copper Lockpick | Copper ingot |
-| Gold Lockpick | Gold ingot |
-| Iron Lockpick | Iron ingot |
-| Diamond Lockpick | Diamond |
-| Netherite Lockpick | Netherite ingot |
+| Wooden Lockpick | 2 sticks + oak planks |
+| Copper Lockpick | 2 sticks + copper ingot |
+| Gold Lockpick | 2 sticks + gold ingot |
+| Iron Lockpick | 2 sticks + iron ingot |
+| Diamond Lockpick | 2 sticks + diamond |
+| Netherite Lockpick | 2 sticks + netherite ingot |
 
 ### Master Key (shapeless)
 
