@@ -1,2 +1,154 @@
-# Andys-Locks-And-Keys
-Lock vanilla doors, trapdoors, and fence gates in Minecraft Bedrock.
+<p align="center">
+  <img src="Andys-Locks-And-Keys-Hero-16x9-FINAL.png" alt="Andy's Locks & Keys" width="100%">
+</p>
+
+# Andy's Locks & Keys
+
+**Lock vanilla doors, trapdoors, and fence gates in Minecraft Bedrock.**
+
+Andy's Locks & Keys lets you secure the entrances you already build. Craft a lock, crouch, and use it on a door, trapdoor, or fence gate. You become the owner. A visible padlock sits on the leaf. Other players cannot open it unless you share access, bind them a key, or they succeed at picking or smashing a Simple lock.
+
+The add-on is built for Survival bases, shops, multiplayer towns, Realms, and servers. It uses only stable Script APIs. Cheats and experiments are not required. Standard graphics and Vibrant Visuals both work.
+
+## Download
+
+[Download Andy's Locks & Keys 0.10.16](Andys_Locks_And_Keys_0.10.16.mcaddon)
+
+Minecraft Bedrock **26.30 or newer** is required. Cheats, commands, and experimental gameplay toggles are not required.
+
+When updating from an older test build, **break and replace existing locked doors, then lock them again** so hasps sit on the current leaf.
+
+## Features
+
+- Lock any vanilla door, trapdoor, or fence gate
+- Wood through Netherite lock, key, and lockpick families
+- Visible padlock hasp that follows the closed and open leaf
+- Crouch-use a lock item to install; crouch-use again for settings
+- Bound Keys for a specific Lock ID; Blank Keys for owner copying
+- Master Key that opens every lock you own
+- Operator holding a Master Key can open every lock in the world
+- Access modes: Owner Only, Key Holders, Shared, Group, and Public
+- Simple, Reinforced, and Advanced lock upgrades
+- Lockpicking with material odds and pick durability
+- Netherite pickaxe brute force on Simple locks (crouch, hold-swing, 30–50s)
+- Locked blocks cannot be broken until the lock is removed
+- Security redstone snap-close, or Redstone Allowed / Advanced wiring
+- Double doors and paired fence gates share one lock
+- Overworld, Nether, and End
+- Single-player, multiplayer, Realm, and supported Bedrock-server compatibility
+- No required dependencies
+
+## Installation
+
+### Windows, Android, iPhone, and iPad
+
+1. Download `Andys_Locks_And_Keys_0.10.16.mcaddon` from this repository.
+2. Open the downloaded file with Minecraft Bedrock.
+3. Wait for Minecraft to confirm that both included packs imported successfully.
+4. Create a world, or edit the world where you want to use the add-on.
+5. Open **Behavior Packs → My Packs**.
+6. Activate **Andy's Locks & Keys [BP]**.
+7. Confirm that **Andy's Locks & Keys [RP]** is active under Resource Packs.
+8. Enter the world, place a door, and crouch-use a lock item on it.
+
+Back up an important world before installing or updating any add-on.
+
+### Xbox, PlayStation, and Nintendo Switch
+
+Consoles generally cannot import arbitrary local `.mcaddon` files directly. Import and activate the add-on on Windows or mobile, upload the prepared world to a Realm, and join that Realm from the console.
+
+## How to Use
+
+### Lock an entrance
+
+1. Craft a lock (for Iron: iron ingot + iron nugget).
+2. Place a vanilla door, trapdoor, or fence gate.
+3. Hold the lock, **crouch**, and use it on the entrance.
+4. A padlock hasp appears. You are the owner. Standing click still opens the door for you.
+
+### Settings and remove
+
+Crouch-use a lock item on an entrance you own to open settings (access, sharing, groups, public, upgrades, repair, remove). Removing the lock returns a stamped lock item.
+
+### Keys
+
+Crouch-use a blank key on a lock you own to bind it. Standing-click with that bound key opens that lock and spends one use. A wrong key fails and still wears. Only the owner can copy keys.
+
+Craft a Master Key (emerald + netherite ingot + gold ingot). Crouch-use it on a lock you own. That one key opens all of your locks.
+
+### Lockpicking and smash
+
+Aim a lockpick at someone else's lock. Success opens the entrance once; the lock stays. Reinforced locks need Diamond or Netherite picks.
+
+Crouch with a Netherite Pickaxe and keep swinging at a Simple lock for 30–50 seconds to smash it in place. Stop swinging and progress resets. The block still cannot be broken until the lock is removed.
+
+### Redstone
+
+Security mode (default) closes unauthorized opens. Advanced / Redstone Allowed lets wiring work on purpose.
+
+See the [project wiki](https://github.com/CharlesJGantt/Andys-Locks-And-Keys/wiki) for the complete installation, usage, compatibility, and troubleshooting guides.
+
+## Compatibility and Technical Notes
+
+- Minecraft Bedrock 26.30 or newer
+- Both included packs must remain active at the same version
+- Standard graphics and Vibrant Visuals
+- Single-player, multiplayer, Realms, and supported Bedrock servers
+- No required dependencies
+- No experimental gameplay toggles
+- No commands or Cheats required
+
+Security Mode cannot cancel redstone in the engine. A door may flash open for a tick before it closes. A lever left on can flicker.
+
+## Troubleshooting
+
+### The padlock is missing or floating
+
+- Confirm **Andy's Locks & Keys [RP]** is active and matches the Behavior Pack version.
+- Remove older Locks & Keys packs, then re-import.
+- If you updated from an older test build, break the door, place it again, and lock it fresh.
+
+### I cannot lock the block
+
+- Crouch. Standing click opens the door instead of locking.
+- Aim at the door, trapdoor, or gate itself.
+- Hold a lock item in the selected hotbar slot.
+
+### The door opens from a button
+
+- Default Security mode snaps unauthorized opens closed after a moment.
+- A constantly powered lever can flicker. Use a button, or set Redstone Allowed.
+
+## Follow and Support Andy
+
+Visit [AndyTheMakerMC.xyz](https://AndyTheMakerMC.xyz) for Andy's add-ons, world lore, tutorials, guides, videos, and other Minecraft content.
+
+Follow **@AndyTheMakerMC** on:
+
+- [YouTube](https://www.youtube.com/@AndyTheMakerMC)
+- [Twitch](https://twitch.tv/AndyTheMakerMC)
+- [X](https://x.com/AndyTheMakerMC)
+- [TikTok](https://www.tiktok.com/@AndyTheMakerMC)
+- [Instagram](https://www.instagram.com/AndyTheMakerMC)
+
+Support future projects through [Ko-fi](https://ko-fi.com/andythemaker) or a [direct Stripe contribution](https://buy.stripe.com/4gM4gz0qu0xwgxw0IfcMM00).
+
+## Player, Server, Realm, and Content Creator Permission
+
+Players may use an official, unmodified release of Andy's Locks & Keys in personal worlds, multiplayer worlds, Realms, and servers. Normal delivery of the official, unmodified add-on to players joining an authorized world, Realm, or server is permitted.
+
+Content creators may use, review, and showcase an official, unmodified release in worlds, multiplayer worlds, Realms, servers, videos, livestreams, screenshots, tutorials, reviews, showcases, articles, guides, social posts, and other original gameplay content, including monetized content.
+
+Credit to **AndyTheMakerMC** and a link to the official project page are appreciated whenever practical.
+
+These permissions do not allow anyone to offer the add-on file as a separate download or to modify, translate, adapt, decompile, disassemble, reverse engineer, extract, repackage, mirror, rehost, resell, sublicense, redistribute, or reuse any project content.
+
+## All Rights Reserved License
+
+**All Rights Reserved. Copyright © 2026 Andy / AndyTheMakerMC.**
+
+Except for the limited player, server, Realm, and content-creator permissions above, no part of the add-on, documentation, branding, textures, models, or promotional artwork may be redistributed, reuploaded, rehosted, mirrored, resold, sublicensed, bundled, repackaged, modified and published, translated, adapted, decompiled, disassembled, reverse engineered, extracted, reused, or incorporated into another add-on, pack, application, website, download, or project without prior written permission from the copyright holder.
+
+The promotional artwork is original AI-assisted concept artwork directed for this project. It is not an in-game screenshot.
+
+Minecraft is a trademark of Microsoft Corporation. This project is not affiliated with, endorsed by, sponsored by, or associated with Microsoft or Mojang Studios.
