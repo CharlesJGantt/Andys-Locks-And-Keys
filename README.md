@@ -57,11 +57,56 @@ Back up an important world before installing or updating any add-on.
 
 Consoles generally cannot import arbitrary local `.mcaddon` files directly. Import and activate the add-on on Windows or mobile, upload the prepared world to a Realm, and join that Realm from the console.
 
+## Crafting
+
+All recipes are **always unlocked** in the recipe book. You do not have to find the material first.
+
+### Locks (shapeless)
+
+| Result | Ingredients |
+|---|---|
+| Wooden Lock | Oak planks + iron nugget |
+| Copper Lock | Copper ingot + iron nugget |
+| Gold Lock | Gold ingot + iron nugget |
+| Iron Lock | Iron ingot + iron nugget |
+| Diamond Lock | Diamond + iron nugget |
+| Netherite Lock | Netherite ingot + iron nugget |
+
+### Blank keys (shapeless)
+
+| Result | Ingredients |
+|---|---|
+| Wooden Blank Key | Oak planks + stick |
+| Copper Blank Key | Copper ingot + stick |
+| Gold Blank Key | Gold ingot + stick |
+| Iron Blank Key | Iron ingot + stick |
+| Diamond Blank Key | Diamond + stick |
+| Netherite Blank Key | Netherite ingot + stick |
+
+Bound keys have no recipe. Crouch-use a blank key on a lock you own.
+
+### Lockpicks (shaped, vertical)
+
+Two sticks over the matching material (oak planks for Wood).
+
+| Result | Bottom ingredient |
+|---|---|
+| Wooden Lockpick | Oak planks |
+| Copper Lockpick | Copper ingot |
+| Gold Lockpick | Gold ingot |
+| Iron Lockpick | Iron ingot |
+| Diamond Lockpick | Diamond |
+| Netherite Lockpick | Netherite ingot |
+
+### Master Key (shapeless)
+
+Emerald + netherite ingot + gold ingot.
+
 ## How to Use
 
 ### Lock an entrance
 
-1. Craft a lock (for Iron: iron ingot + iron nugget).
+1. Craft a lock (see [Crafting](#crafting)).
 2. Place a vanilla door, trapdoor, or fence gate.
 3. Hold the lock, **crouch**, and use it on the entrance.
 4. A padlock hasp appears. You are the owner. Standing click still opens the door for you.
