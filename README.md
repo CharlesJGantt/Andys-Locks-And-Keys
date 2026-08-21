@@ -1,28 +1,55 @@
 <p align="center">
-  <img src="Andys-Locks-And-Keys-Hero-16x9-FINAL.png" alt="Andy's Locks & Keys" width="100%">
+  <img src="Andys-Locks-And-Keys-Hero-16x9-FINAL.png" alt="Andy's Locks &amp; Keys" width="100%">
 </p>
 
 # Andy's Locks & Keys
 
-**Lock vanilla doors, trapdoors, and fence gates in Minecraft Bedrock.**
+**Lock vanilla doors, trapdoors, fence gates, chests, and barrels in Minecraft Bedrock.**
 
-Andy's Locks & Keys lets you secure the entrances you already build. Craft a lock, crouch, and use it on a door, trapdoor, or fence gate. You become the owner. A visible padlock sits on the leaf. Other players cannot open it unless you share access, bind them a key, or they succeed at picking or smashing a Simple lock.
+Andy's Locks & Keys lets you secure the entrances and containers you already build. Craft a lock, crouch, and use it on a door, trapdoor, fence gate, chest, or barrel. You become the owner. A visible padlock appears on the block. Other players cannot open it unless you share access, bind them a key, or they succeed at picking or smashing a Simple lock.
 
 The add-on is built for Survival bases, shops, multiplayer towns, Realms, and servers. It uses only stable Script APIs. Cheats and experiments are not required. Standard graphics and Vibrant Visuals both work.
 
+<p align="center">
+  <img src="images/locks-on-doors.png" alt="Wood through Netherite padlocks on oak doors" width="100%">
+</p>
+
 ## Download
 
-[Download Andy's Locks & Keys 0.10.16](Andys_Locks_And_Keys_0.10.16.mcaddon)
+[Download Andy's Locks & Keys 0.11.2](Andys_Locks_And_Keys_0.11.2.mcaddon)
 
 Minecraft Bedrock **26.30 or newer** is required. Cheats, commands, and experimental gameplay toggles are not required.
 
 When updating from an older test build, **break and replace existing locked doors, then lock them again** so hasps sit on the current leaf.
 
+## Chests & Barrels Update
+
+Locks are no longer limited to entrances. Secure normal Chests, Double Chests, Trapped Chests, Double Trapped Chests, Ender Chests, every Copper Chest oxidation and waxed variant, and Barrels using the same ownership, keys, sharing, groups, lockpicking, upgrades, repair, and brute-force systems used by doors.
+
+<p align="center">
+  <img src="images/chests-locked.jpg" alt="Locked chests, trapped chests, copper chests, and barrels" width="100%">
+</p>
+
+- Locked Chests and Barrels cannot be opened by unauthorized players or destroyed with tools in Survival or Creative.
+- Double Chests share one lock across both halves, with the padlock at the front seam.
+- Single chests and Ender Chests show one compact padlock at the front latch.
+- Barrels show one compact padlock only on the face you clicked when installing, including the top and bottom.
+- Container padlocks are 20% smaller than entrance padlocks. Door, trapdoor, and fence-gate geometry is unchanged.
+- Eligible Simple locks can be brute-forced only by a crouched Survival player holding a vanilla Netherite Pickaxe.
+- Hold the mine button for the countdown, sounds, and particles. Release, stand up, look away, or switch items and the attempt resets.
+- No other pickaxe or tool can start or advance brute force.
+- A smashed lock stays attached and must be repaired. The container remains protected until you repair or remove it.
+- Trapped Chests keep authorized redstone output. Denied interactions never open them.
+
+Hoppers can still transfer items. The stable Bedrock Script API does not provide a cancellable hopper-transfer event.
+
+Chest boats, chest minecarts, and shulker boxes are not supported.
+
 ## Features
 
-- Lock any vanilla door, trapdoor, or fence gate
+- Lock any vanilla door, trapdoor, fence gate, normal/trapped/Ender chest, every Copper Chest variant, or barrel
 - Wood through Netherite lock, key, and lockpick families
-- Visible padlock hasp that follows the closed and open leaf
+- Visible padlock hasp on the locked block
 - Crouch-use a lock item to install; crouch-use again for settings
 - Bound Keys for a specific Lock ID; Blank Keys for owner copying
 - Master Key that opens every lock you own
@@ -30,26 +57,48 @@ When updating from an older test build, **break and replace existing locked door
 - Access modes: Owner Only, Key Holders, Shared, Group, and Public
 - Simple, Reinforced, and Advanced lock upgrades
 - Lockpicking with material odds and pick durability
-- Netherite pickaxe brute force on Simple locks (crouch, hold-swing, 30–50s)
+- Netherite pickaxe brute force on Simple locks (crouch, keep swinging, 30–50s)
 - Locked blocks cannot be broken until the lock is removed
 - Security redstone snap-close, or Redstone Allowed / Advanced wiring
-- Double doors and paired fence gates share one lock
+- Double doors, paired fence gates, and double chests share one lock
 - Overworld, Nether, and End
 - Single-player, multiplayer, Realm, and supported Bedrock-server compatibility
 - No required dependencies
+
+<p align="center">
+  <img src="images/items-inventory.png" alt="Lock, key, lockpick, and Master Key items" width="80%">
+</p>
+
+## Screenshots
+
+<p align="center">
+  <img src="images/locks-on-trapdoors.png" alt="Locked trapdoors" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/locks-on-fence-gates.png" alt="Locked fence gates" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/settings-menu-1.png" alt="Lock settings menu" width="70%">
+</p>
+
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2FhNGY2Ymt4ODFtMWpoMW10dGc2Ymg4OHEyaGhxeW13YWR3dXZ1byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lUBKztwuU1bTm04zUC/giphy.gif" alt="Brute-forcing a locked chest with a Netherite Pickaxe" width="100%">
+</p>
 
 ## Installation
 
 ### Windows, Android, iPhone, and iPad
 
-1. Download `Andys_Locks_And_Keys_0.10.16.mcaddon` from this repository.
+1. Download `Andys_Locks_And_Keys_0.11.2.mcaddon` from this repository.
 2. Open the downloaded file with Minecraft Bedrock.
 3. Wait for Minecraft to confirm that both included packs imported successfully.
 4. Create a world, or edit the world where you want to use the add-on.
 5. Open **Behavior Packs → My Packs**.
 6. Activate **Andy's Locks & Keys [BP]**.
 7. Confirm that **Andy's Locks & Keys [RP]** is active under Resource Packs.
-8. Enter the world, place a door, and crouch-use a lock item on it.
+8. Enter the world, place a door, chest, or barrel, and crouch-use a lock item on it.
 
 Back up an important world before installing or updating any add-on.
 
@@ -104,16 +153,22 @@ Bound keys have no recipe. Crouch-use a blank key on a lock you own.
 
 ## How to Use
 
-### Lock an entrance
+### Lock an entrance or container
 
 1. Craft a lock (see [Crafting](#crafting)).
-2. Place a vanilla door, trapdoor, or fence gate.
-3. Hold the lock, **crouch**, and use it on the entrance.
-4. A padlock hasp appears. You are the owner. Standing click still opens the door for you.
+2. Place a vanilla door, trapdoor, fence gate, chest, trapped chest, Ender chest, Copper Chest, or barrel.
+3. Hold the lock, **crouch**, and use it on the block.
+4. A padlock appears. You are the owner. Standing click still opens it for you.
+
+Side-by-side matching doors, fence gates, or a real double chest share one lock. Chest padlocks sit at the front latch or the double-chest seam. Barrel padlocks sit on the exact face you clicked.
 
 ### Settings and remove
 
-Crouch-use a lock item on an entrance you own to open settings (access, sharing, groups, public, upgrades, repair, remove). Removing the lock returns a stamped lock item.
+Crouch-use a lock item on a lock you own to open settings (access, sharing, groups, public, upgrades, repair, remove). Removing the lock returns a stamped lock item.
+
+<p align="center">
+  <img src="images/settings-menu-2.png" alt="Lock settings with redstone, upgrade, audit, and remove" width="70%">
+</p>
 
 ### Keys
 
@@ -123,15 +178,23 @@ Crouch-use a Master Key on a lock you own. That one key opens all of your locks.
 
 ### Lockpicking and smash
 
-Aim a lockpick at someone else's lock. Success opens the entrance once; the lock stays. Reinforced locks need Diamond or Netherite picks.
+Aim a lockpick at someone else's lock. Success opens an entrance once, or grants three seconds to open a container. The lock stays. Reinforced locks need Diamond or Netherite picks.
 
 Crouch with a Netherite Pickaxe and keep swinging at a Simple lock for 30–50 seconds to smash it in place. Stop swinging and progress resets. The block still cannot be broken until the lock is removed.
 
+<p align="center">
+  <img src="images/smash-lock.png" alt="Smashing a locked copper chest with a Netherite Pickaxe" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/smash-lock-complete.png" alt="Smashed lock still attached to a copper chest" width="100%">
+</p>
+
 ### Redstone
 
-Security mode (default) closes unauthorized opens. Advanced / Redstone Allowed lets wiring work on purpose.
+Security mode (default) closes unauthorized opens. Advanced / Redstone Allowed lets wiring work on purpose. Trapped Chests only pulse when an authorized player opens them.
 
-See the [project wiki](https://github.com/CharlesJGantt/Andys-Locks-And-Keys/wiki) for the complete installation, usage, compatibility, and troubleshooting guides.
+See the [project wiki](https://github.com/CharlesJGantt/Andys-Locks-And-Keys/wiki) for the complete player guide.
 
 ## Compatibility and Technical Notes
 
@@ -145,6 +208,8 @@ See the [project wiki](https://github.com/CharlesJGantt/Andys-Locks-And-Keys/wik
 
 Security Mode cannot cancel redstone in the engine. A door may flash open for a tick before it closes. A lever left on can flicker.
 
+Hoppers can still move items in and out of locked chests and barrels.
+
 ## Troubleshooting
 
 ### The padlock is missing or floating
@@ -155,14 +220,20 @@ Security Mode cannot cancel redstone in the engine. A door may flash open for a 
 
 ### I cannot lock the block
 
-- Crouch. Standing click opens the door instead of locking.
-- Aim at the door, trapdoor, or gate itself.
+- Crouch. Standing click opens the door or container instead of locking.
+- Aim at the door, trapdoor, gate, chest, or barrel itself.
 - Hold a lock item in the selected hotbar slot.
 
 ### The door opens from a button
 
 - Default Security mode snaps unauthorized opens closed after a moment.
 - A constantly powered lever can flicker. Use a button, or set Redstone Allowed.
+
+### Brute force does nothing
+
+- Crouch in Survival. Hold a Netherite Pickaxe. Keep swinging.
+- Only Simple locks smash this way. Unbreaking III on the lock blocks smash.
+- Progress resets if you stop, stand up, look away, or switch items.
 
 ## Follow and Support Andy
 
