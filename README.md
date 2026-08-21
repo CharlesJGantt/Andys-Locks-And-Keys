@@ -16,11 +16,16 @@ The add-on is built for Survival bases, shops, multiplayer towns, Realms, and se
 
 ## Download
 
-[Download Andy's Locks & Keys 0.11.2](Andys_Locks_And_Keys_0.11.2.mcaddon)
+[Download Andy's Locks & Keys 0.11.3](Andys_Locks_And_Keys_0.11.3.mcaddon)  
+**SHA-256:** `71A219FEEA39682C30F9221D2042E7AED5EC01361E213B64861A9FF4AA12325E`
 
 Minecraft Bedrock **26.30 or newer** is required. Cheats, commands, and experimental gameplay toggles are not required.
 
 When updating from an older test build, **break and replace existing locked doors, then lock them again** so hasps sit on the current leaf.
+
+## 0.11.3 — Better Double Doors
+
+Locks & Keys now has a secure interoperability channel for [Andy's Better Double Doors](https://github.com/CharlesJGantt/Andys-Better-Double-Doors). Authorized proximity opens still use the normal owner, key, sharing, group, public, and Redstone Allowed rules. No lock rule is bypassed. Better Double Doors is optional.
 
 ## Chests & Barrels Update
 
@@ -91,7 +96,7 @@ Chest boats, chest minecarts, and shulker boxes are not supported.
 
 ### Windows, Android, iPhone, and iPad
 
-1. Download `Andys_Locks_And_Keys_0.11.2.mcaddon` from this repository.
+1. Download `Andys_Locks_And_Keys_0.11.3.mcaddon` from this repository.
 2. Open the downloaded file with Minecraft Bedrock.
 3. Wait for Minecraft to confirm that both included packs imported successfully.
 4. Create a world, or edit the world where you want to use the add-on.
